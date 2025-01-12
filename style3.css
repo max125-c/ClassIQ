@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family:  sans-serif;
+}
+
+.container1{
+    width: auto;
+    height: 15vh;
+    top: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 75px;
+}
+.container1 .child1{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+}
+.child1 p{
+    color: #3E3E3E;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.container1 .child2 button{
+    /* display: flex; */
+    /* flex-direction: column;
+    align-items:start;
+    justify-content: center; */
+    /* height: 15px; */
+    font-size: 18px;
+    width: 140px;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+    background-color: #000000;
+    flex-wrap: wrap;
+
+}
+
+.child2 a{
+    flex-direction: row;
+    margin: 20px;
+}
+.child2 button:hover{
+    background-color: #3E3E3E;
+}
+
+
+/* Enroll COurces */
+
+.container2{
+    margin-top: 150px;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+
+.container2 .child3{
+    height: 40vh;
+    width: 90%;
+    background-color: #ecedef;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+    gap: 540px;
+
+}
+
+.container2 .child3 h3{
+    align-self: flex-start;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.container2 .child3 img{
+    background: radial-gradient(
+    circle,
+  
+    rgba(11, 214, 99, 0.895) 70%
+  );
+}
+
+
+.container3{
+    margin-top: 200px;
+    /* margin-inline: 70px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container3 h2{
+    align-self: flex-start;
+    font-size: 32px;
+    margin-bottom: 50px;
+    padding-left: 90px;
+}
+
+.child4{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1287px;
+}
+
+.child4 .para1{
+    height: 273px;
+    width: 334px;
+    background-color: #ecedef;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 23px ;
+    
+
+}

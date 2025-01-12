@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family:  sans-serif;
+}
+
+.container1{
+    width: auto;
+    height: 15vh;
+    top: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 75px;
+}
+.container1 .child1{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+}
+.child1 p{
+    color: #3E3E3E;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.container1 .child2 button{
+    /* display: flex; */
+    /* flex-direction: column;
+    align-items:start;
+    justify-content: center; */
+    /* height: 15px; */
+    font-size: 18px;
+    width: 140px;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+    background-color: #000000;
+    flex-wrap: wrap;
+
+}
+
+.child2 a{
+    flex-direction: row;
+    margin: 20px;
+}
+.child2 button:hover{
+    background-color: #3E3E3E;
+}
+/* Signup design */
+
+.container2{
+    height: 85vh;
+    display: flex;
+    flex-direction: ro;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #3E3E3E; */
+
+}
+
+.container2 .child3{
+    height: 495px;
+    width: 399px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#ecedef ;
+    /* gap: 50px; */
+
+}
+.container2 .child3 h3{
+    padding: 25px;
+    font-size: 25px;
+
+}
+.container2 .child3 input{
+    height: 43px;
+    margin-top: 20px;
+    width: 327px;
+    border: 3px solid black;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size: 20px;
+
+    color: #000000;
+}
+
+.container2 .child3 button{
+    height: 44px;
+    width: 327px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #c2f578;
+    border: #ecedef;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.container2 .child3 button:hover{
+    background-color: #a7fc28;
+}
+
+.container2 .child3 input::placeholder{
+    font-weight: bold;
+    color: #000000;
+    /* padding-left: 10px; */
+    font-size: 20px;
+
+}
+
+.container2 .child3 input:hover{
+ color: #000000;
+ font-weight: bold;
+background-color: azure;
+}
+
+.container2 .child3 p{
+    font-size: 20px;
+}
+
+.container2 .child3 a{
+    color: black;
+    font-weight: bold;
+}
